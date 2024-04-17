@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <script src="https://kit.fontawesome.com/a4c4836372.js" crossorigin="anonymous"></script>
+
+    <title>Pooch Quiz</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <main>
+        <div class="content-wrapper">
+            <h1><i class="fa-solid fa-paw"></i> Perfect Pooch Quiz</h1>
+
+            <div class="intro">
+                <h2>Are you thinking of adding a furry friend to your family?</h2>
+                <button class="random">Show me a random pup!</button>
+            </div>
+
+            <div class="reset-button" hidden>
+                <button class="reset">Reset</button>
+            </div>
+
+            <figure>
+                <img class="main-img" src="./img/dog-main.jpg" alt="four happy dogs">
+            </figure>
+
+            <div class="pick-a-pup">
+                <p>or...</p>
+                <h3>What kind of dog are you looking for?</h3>
+                <div class="energy-select">
+                    <label for="energy">Desired Energy Level:</label>
+                    <select name="energy" id="energy">
+                        <option value="">-</option>
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </div>
+
+            <!-- Hide all elements below here -->
+            <div class="advanced-search" >
+                <h4>Advanced Search</h4>
+                <div class="home-select">
+                    <label for="home">What is your living situation?</label>
+                    <select name="home" id="home">
+                        <option value="">-</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="house">House</option>
+                        <option value="yard">House with a yard</option>
+                    </select>
+                </div>
+
+                <div class="size-select">
+                    <label for="size">Search by size</label>
+                    <select name="size" id="size">
+                        <option value="">-</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="no-match" >
+                <p>Sorry, there wasn't a match. Please try again.</p>
+            </div>
+
+            <button class="search" >Find My Pooch!</button>
+
+            <div class="dog-display" >
+                <h2 class="name"></h2>
+                <figure>
+                    <img class="img" id="dog-img" src="" alt="">
+                </figure>
+                <p><strong>Breed:</strong> <span class="breed"></span></p>
+                <p><strong>Energy Level:</strong> <span class="energy-level"></span></p>
+                <p><strong>Description:</strong> <br><span class="description"></span></p>
+            </div>
+        </div>
+    </main>
+
+    <footer >
+        <p class="copyright">Copyright 
+            <span id="year"></span> | Jordan Jackson
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

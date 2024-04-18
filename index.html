@@ -42,9 +42,9 @@
                     <label for="energy">Desired Energy Level:</label>
                     <select name="energy" id="energy">
                         <option value="">-</option>
-                        <option value="low">Low</option>
-                        <option value="medium">Medium</option>
-                        <option value="high">High</option>
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
                     </select>
                 </div>
             </div>
@@ -55,25 +55,26 @@
                     <label for="home">What is your living situation?</label>
                     <select name="home" id="home">
                         <option value="">-</option>
-                        <option value="apartment">Apartment</option>
-                        <option value="house">House</option>
-                        <option value="yard">House with a yard</option>
+                        <option value="Apartment">Apartment</option>
+                        <option value="House">House</option>
+                        <option value="Yard">House with a yard</option>
                     </select>
                 </div>
 
                 <div class="size-select">
-                    <label for="size">Search by size:</label>
+                    <label for="size">Search by Size:</label>
                     <select name="size" id="size">
                         <option value="">-</option>
-                        <option value="small">Small</option>
-                        <option value="medium">Medium</option>
-                        <option value="large">Large</option>
+                        <option value="Small">Small</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
                     </select>
                 </div>
             </div>
 
             <div class="no-match" hidden>
-                <p>Sorry, there wasn't a match. Please try again.</p>
+                <p><b>Sorry, there wasn't a match. Please try again.</b></p>
+                <p>Or, you can <span class="reset-span">Reset</span> your search.</p>
             </div>
 
             <button class="search" hidden>Find My Pooch!</button>
@@ -84,6 +85,7 @@
                     <img id="dog-img" src="" alt="">
                 </figure>
                 <p class="energy-heading">Energy Level: <span class="energy-level"></span>
+                <p class="size-heading">Size: <span class="size"></span>
                 <p class="description-heading">Description:</p>
                 <p class="description"></p>
             </div>

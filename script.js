@@ -31,10 +31,19 @@ const dogsArray = [
         src: "../img/pomeranian.jpg",
         alt: "Pomeranian",
         energy: "Low",
-        home: "Apartment",
+        home: "Apartment, House, Yard",
         size: "Small",
         description: "Pomeranians are spunky, cuddly, and lovable. They are great dogs for beginners because they are both easy to train and loyal. Pomeranians are also an excellent choice for those living in apartments or small homes."
-    }
+    },
+    {
+        name: "Beagle",
+        src: "../img/Beagle.jpg",
+        alt: "Beagle",
+        energy: "Medium",
+        home: "House, Yard",
+        size: "Medium",
+        description: "Beagles are smart and loyal. They make great dogs for active individuals because they have relatively high energy for a breed of their size. Beagles can be more noisy than other breeds, so they do best living in a house."
+    },
 ]
 
 function randomDog() {
@@ -75,6 +84,28 @@ function advancedDogSearch() {
     let selectedHome = homeInput.value;
     let selectedSize = sizeInput.value;
 
+    // for (let i = 0; i < dogsArray.length; i++) {
+    //     if (dogsArray[i].energy.includes(selectedEnergy) && dogsArray[i].home.includes(selectedHome) && dogsArray[i].size.includes(selectedSize)) {
+    //         // Create a copy of dogDisplay div
+    //         let clone = dogDisplay.cloneNode(true);
+    //         dogDisplay.after(clone);
+    //         // Populate div information
+    //         updateDogInfo(dogsArray[i]);
+    //         // Update UI
+    //         dogDisplay.hidden = false;
+    //         resetBtn.hidden = false;
+    //         introHeading.hidden = true;
+    //         randomBtn.hidden = true;
+    //         searchBtn.hidden = true;
+    //         mainImg.hidden = true;
+    //         pickAPup.hidden = true;
+    //         advancedSearch.hidden = true;
+    //         searchBtn.hidden = true;
+    //     } else {
+    //         noMatch.hidden = false;
+    //     }
+    // }
+
     dogsArray.forEach(dog => {
         if (dog.energy.includes(selectedEnergy) && dog.home.includes(selectedHome) && dog.size.includes(selectedSize)) {
             // Create a copy of dogDisplay div
@@ -92,8 +123,6 @@ function advancedDogSearch() {
             pickAPup.hidden = true;
             advancedSearch.hidden = true;
             searchBtn.hidden = true;
-        } else {
-            noMatch.hidden = false;
         }
     })
 };

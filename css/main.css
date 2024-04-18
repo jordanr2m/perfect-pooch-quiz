@@ -127,6 +127,7 @@ select {
     border-radius: 5px;
     padding: 30px;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 h2.name {
@@ -156,7 +157,7 @@ h2.name {
 
 .description-heading {
     font-weight: bold;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
 }
 
 .description {
@@ -180,4 +181,8 @@ h2.name {
     font-weight: bold;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.hide {
+    display: none;
 }

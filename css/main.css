@@ -1,0 +1,156 @@
+:root {
+    --main: rgb(176, 249, 249);
+    --accent: rgb(4, 192, 192);
+    --background: aliceblue;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* ===== Global Styles ===== */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: "Lato", sans-serif;
+    background: url("../img/bone_icon.svg") repeat;
+    background-color: var(--background);
+}
+
+h1 {
+    font-family: "Comic Neue", cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+button {
+    margin: 0.75rem 0 1.5rem 0;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 2px solid var(--accent);
+    background-color: var(--background);
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--accent);
+    border: 2px solid white;
+    transform: scale(1.1);
+    transition: transform 0.35s;
+}
+
+figure {
+    margin: 0;
+}
+
+.copyright {
+    background-color: white;
+    padding: 5px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    width: 900px;
+    background-color: var(--main);
+    padding: 20px 0 40px 0;
+    border-radius: 5px;
+}
+
+/* === Intro section styles === */
+.intro {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.main-img {
+    width: 550px;
+    border-radius: 5px;
+}
+
+.reset {
+    margin-top: 0;
+}
+
+/* === Pick a Pup section styles === */
+.pick-a-pup p {
+    font-size: 1.4rem;
+}
+
+.pick-a-pup h3 {
+    font-size: 1.5rem;
+}
+
+.pick-a-pup h4 {
+    font-size: 1.3rem;
+}
+
+label {
+    font-size: 1.25rem;
+    margin-right: 10px;
+}
+
+select {
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* === Dog Display Styles === */
+.dog-display {
+    width: 600px;
+    background-color: var(--background);
+    font-size: 1.2rem;
+    border: 5px solid var(--accent);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+h2.name {
+    margin: 0;
+    font-size: 2rem;
+}
+
+#dog-img {
+    border-radius: 50% !important;
+    box-shadow: 0 0 0 5px rgba(250,250,250);
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+.energy-heading {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.energy-level {
+    font-weight: normal;
+}
+
+.description-heading {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin: 0;
+    line-height: 1.75rem;
+}

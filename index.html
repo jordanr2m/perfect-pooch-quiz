@@ -7,29 +7,32 @@
     <!-- displays site properly based on user's device -->
 
     <script src="https://kit.fontawesome.com/a4c4836372.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 
-    <title>Pooch Quiz</title>
+    <title>Pooch Finder</title>
 
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
     <main>
         <div class="content-wrapper">
-            <h1><i class="fa-solid fa-paw"></i> Perfect Pooch Quiz</h1>
+            <h1><i class="fa-solid fa-paw"></i> Perfect Pooch Finder</h1>
 
             <div class="intro">
                 <h2>Are you thinking of adding a furry friend to your family?</h2>
                 <button class="random">Show me a random pup!</button>
             </div>
 
-            <div class="reset-button" hidden>
-                <button class="reset">Reset</button>
-            </div>
+            <button class="reset" hidden>Reset</button>
 
             <figure>
-                <img class="main-img" src="./img/dog-main.jpg" alt="four happy dogs">
+                <img class="main-img" src="./img/puppy.jpg" alt="four happy dogs">
             </figure>
 
             <div class="pick-a-pup">
@@ -44,9 +47,9 @@
                         <option value="high">High</option>
                     </select>
                 </div>
+            </div>
 
-            <!-- Hide all elements below here -->
-            <div class="advanced-search" >
+            <div class="advanced-search" hidden>
                 <h4>Advanced Search</h4>
                 <div class="home-select">
                     <label for="home">What is your living situation?</label>
@@ -59,7 +62,7 @@
                 </div>
 
                 <div class="size-select">
-                    <label for="size">Search by size</label>
+                    <label for="size">Search by size:</label>
                     <select name="size" id="size">
                         <option value="">-</option>
                         <option value="small">Small</option>
@@ -69,26 +72,25 @@
                 </div>
             </div>
 
-            <div class="no-match" >
+            <div class="no-match" hidden>
                 <p>Sorry, there wasn't a match. Please try again.</p>
             </div>
 
-            <button class="search" >Find My Pooch!</button>
+            <button class="search" hidden>Find My Pooch!</button>
 
-            <div class="dog-display" >
+            <div class="dog-display" hidden>
                 <h2 class="name"></h2>
                 <figure>
-                    <img class="img" id="dog-img" src="" alt="">
+                    <img id="dog-img" src="" alt="">
                 </figure>
-                <p><strong>Breed:</strong> <span class="breed"></span></p>
-                <p><strong>Energy Level:</strong> <span class="energy-level"></span></p>
-                <p><strong>Description:</strong> <br><span class="description"></span></p>
+                <p class="energy-heading">Energy Level: <span class="energy-level"></span>
+                <p class="description-heading">Description:</p>
+                <p class="description"></p>
             </div>
-        </div>
     </main>
 
-    <footer >
-        <p class="copyright">Copyright 
+    <footer>
+        <p class="copyright">Copyright
             <span id="year"></span> | Jordan Jackson
         </p>
     </footer>

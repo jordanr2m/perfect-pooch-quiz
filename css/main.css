@@ -74,6 +74,7 @@ figure {
     background-color: var(--main);
     padding: 20px 0 40px 0;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* === Intro section styles === */
@@ -116,11 +117,12 @@ select {
     margin-bottom: 20px;
     border-radius: 5px;
     padding: 3px;
+    cursor: pointer;
 }
 
 /* === Dog Display Styles === */
 .dog-display {
-    width: 600px;
+    width: 650px;
     background-color: var(--background);
     font-size: 1.2rem;
     border: 5px solid var(--accent);
@@ -174,15 +176,4 @@ h2.name {
 .no-match p {
     font-size: 1.25rem;
     margin-bottom: 20px;
-}
-
-.reset-span {
-    color: blue;
-    font-weight: bold;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.hide {
-    display: none;
 }

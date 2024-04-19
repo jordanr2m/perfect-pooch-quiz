@@ -52,7 +52,7 @@ function randomDog() {
     disaplyRandomDog(randomDog);
 }
 
-function updateDogInfo (dog) {
+function updateDogInfo(dog) {
     dogName.innerText = dog.name;
     dogImg.src = dog.src;
     dogImg.alt = dog.alt;
@@ -61,7 +61,7 @@ function updateDogInfo (dog) {
     description.innerText = dog.description;
 }
 
-function disaplyRandomDog (dog) {
+function disaplyRandomDog(dog) {
     resetBtn.hidden = false;
     dogDisplay.hidden = false;
     mainImg.hidden = true;
@@ -84,47 +84,32 @@ function advancedDogSearch() {
     let selectedHome = homeInput.value;
     let selectedSize = sizeInput.value;
 
-    // for (let i = 0; i < dogsArray.length; i++) {
-    //     if (dogsArray[i].energy.includes(selectedEnergy) && dogsArray[i].home.includes(selectedHome) && dogsArray[i].size.includes(selectedSize)) {
-    //         // Create a copy of dogDisplay div
-    //         let clone = dogDisplay.cloneNode(true);
-    //         dogDisplay.after(clone);
-    //         // Populate div information
-    //         updateDogInfo(dogsArray[i]);
-    //         // Update UI
-    //         dogDisplay.hidden = false;
-    //         resetBtn.hidden = false;
-    //         introHeading.hidden = true;
-    //         randomBtn.hidden = true;
-    //         searchBtn.hidden = true;
-    //         mainImg.hidden = true;
-    //         pickAPup.hidden = true;
-    //         advancedSearch.hidden = true;
-    //         searchBtn.hidden = true;
-    //     } else {
-    //         noMatch.hidden = false;
-    //     }
-    // }
+    const dogMatches = dogsArray.filter(dog =>
+        (dog.energy.includes(selectedEnergy) && dog.home.includes(selectedHome) && dog.size.includes(selectedSize))
+    );
 
-    dogsArray.forEach(dog => {
-        if (dog.energy.includes(selectedEnergy) && dog.home.includes(selectedHome) && dog.size.includes(selectedSize)) {
-            // Create a copy of dogDisplay div
-            let clone = dogDisplay.cloneNode(true);
-            dogDisplay.after(clone);
-            // Populate div information
-            updateDogInfo(dog);
-            // Update UI
-            dogDisplay.hidden = false;
-            resetBtn.hidden = false;
-            introHeading.hidden = true;
-            randomBtn.hidden = true;
-            searchBtn.hidden = true;
-            mainImg.hidden = true;
-            pickAPup.hidden = true;
-            advancedSearch.hidden = true;
-            searchBtn.hidden = true;
-        }
-    })
+    dogMatches.forEach(dog => {
+        // Create a copy of dogDisplay div
+        let clone = dogDisplay.cloneNode(true);
+        dogDisplay.after(clone);
+        // Populate div information
+        updateDogInfo(dog);
+    });
+
+    if (dogMatches.length === 0) {
+        noMatch.hidden = false;
+    } else {
+        // Update UI
+        dogDisplay.hidden = false;
+        resetBtn.hidden = false;
+        introHeading.hidden = true;
+        randomBtn.hidden = true;
+        searchBtn.hidden = true;
+        mainImg.hidden = true;
+        pickAPup.hidden = true;
+        advancedSearch.hidden = true;
+        searchBtn.hidden = true;
+    };
 };
 
 function removeNoMatch() {

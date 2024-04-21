@@ -88,7 +88,15 @@ const dogsArray = [
         size: "Small, Medium",
         description: "Shiba Inus are spunky and sassy. They have medium levels of energy, making them a good choice for active individuals. Because of their small to medium size, Shiba Inus do well in apartments as well as smaller homes."
     },
-    
+    {
+        name: "Chihuahua",
+        src: "../img/chihuahua.jpg",
+        alt: "Chihuahua",
+        energy: "Medium",
+        home: "Apartment, House, Yard",
+        size: "Small",
+        description: "Chihuahuas are a small breed with medium energy levels. They are a good choice for small homes and apartments. Chihuahuas have a lot of personality, but also require more training than some other small breeds."
+    },
 ]
 
 function randomDog() {

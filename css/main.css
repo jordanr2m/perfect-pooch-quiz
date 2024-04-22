@@ -177,3 +177,63 @@ h2.name {
     font-size: 1.25rem;
     margin-bottom: 20px;
 }
+
+
+/* ===== Media Queries ===== */
+/* Large Tablets */
+@media only screen and (max-width: 950px) {
+    .content-wrapper {
+        width: 700px;
+    }
+
+    .intro h2 {
+        width: 80%;
+        line-height: 2.25rem;
+    }
+
+    .dog-display {
+        width: 90%;
+    }
+    
+}
+
+/* Small Tablets */
+@media only screen and (max-width: 740px) {
+    html { 
+       font-size: 14px; 
+    }
+
+    .content-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .main-img {
+        width: 90%;
+    }
+
+    #dog-img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 460px) {
+    h1 {
+        font-size: 1.95rem;
+    }
+
+    .pick-a-pup h3 {
+        padding: 0 15px;
+        line-height: 2.1rem;
+    }
+
+    #home {
+        margin: 10px 0 25px 0;
+    }
+
+    h2.name {
+        font-size: 1.8rem;
+    }
+}

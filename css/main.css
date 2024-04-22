@@ -224,8 +224,12 @@ h2.name {
         font-size: 1.95rem;
     }
 
+    .intro h2 {
+        font-size: 1.6rem;
+    }
+
     .pick-a-pup h3 {
-        padding: 0 15px;
+        padding: 0 20px;
         line-height: 2.1rem;
     }
 

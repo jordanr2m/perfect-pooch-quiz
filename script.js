@@ -76,7 +76,7 @@ const dogsArray = [
         alt: "Australian Shepherd",
         energy: "High",
         home: "House, Yard",
-        size: "Medium, Large",
+        size: "Medium to Large",
         description: "Australian Shepherds are super smart and energetic. This dog may not be the best choice for beginners, but if you have the space and time to commit to them, you won't be disappointed."
     },
     {
@@ -85,14 +85,14 @@ const dogsArray = [
         alt: "Shiba Inu",
         energy: "Medium",
         home: "Apartment, House, Yard",
-        size: "Small, Medium",
+        size: "Small to Medium",
         description: "Shiba Inus are spunky and sassy. They have medium levels of energy, making them a good choice for active individuals. Because of their small to medium size, Shiba Inus do well in apartments as well as smaller homes."
     },
     {
         name: "Chihuahua",
         src: "../img/chihuahua.jpg",
         alt: "Chihuahua",
-        energy: "Low, Medium",
+        energy: "Low to Medium",
         home: "Apartment, House, Yard",
         size: "Small",
         description: "Chihuahuas are a small breed with medium energy levels. They are a good choice for small homes and apartments. Chihuahuas have a lot of personality, but also require more training than some other small breeds."
@@ -101,7 +101,7 @@ const dogsArray = [
         name: "Rottweiler",
         src: "../img/rottweiler.jpg",
         alt: "Rottweiler",
-        energy: "Medium, High",
+        energy: "Medium to High",
         home: "House, Yard",
         size: "Large",
         description: "Rottweilers are big dogs that are known for making great guard dogs. They have medium to high energy and do best with access to a backyard or nearby park. Rottweilers are loyal and give their families lots of love."
@@ -119,7 +119,7 @@ const dogsArray = [
         name: "Yorkshire Terrier",
         src: "../img/yorkshire-terrier.jpg",
         alt: "Yorkshire Terrier",
-        energy: "Low, Medium",
+        energy: "Low to Medium",
         home: "Apartment, House, Yard",
         size: "Small",
         description: "Yorkshire Terriers, also known as Yorkies, are a cute and cuddly little breed. They may be small, but they are known for their big personalities and hearts. Because of their small size and medium energy levels, Yorkies can do great in any size home."
@@ -137,7 +137,7 @@ const dogsArray = [
         name: "Cocker Spaniel",
         src: "../img/cocker-spaniel.jpg",
         alt: "Cocker Spaniel",
-        energy: "Low, Medium",
+        energy: "Low to Medium",
         home: "Apartment, House, Yard",
         size: "Medium",
         description: "Cocker Spaniels became popular after the release of Disney's Lady and the Tramp. They are a medium sized breed with medium to low energy levels. Unlike other medium sized breeds, Cocker Spaniels can do well in apartments and small homes because of their lower energy levels. They are also relatively easy to train."
@@ -175,7 +175,7 @@ const dogsArray = [
         alt: "Border Collie",
         energy: "High",
         home: "House, Yard",
-        size: "Medium, Large",
+        size: "Medium to Large",
         description: "Border Collies are among the smartest of all dog breeds. They are a working breed as well, so they do best when both their minds and their bodies are actively engaged. For these reasons, Border Collies are a great choice for experienced dog owners who have access to lots of land for their pup to run and play, or those who maintain a very active lifestyle."
     },
     {
@@ -193,14 +193,14 @@ const dogsArray = [
         alt: "Boxer",
         energy: "High",
         home: "House, Yard",
-        size: "Medium, Large",
+        size: "Medium to Large",
         description: "Boxers are a medium to large sized breed with high energy levels. They do well in homes with a backyard or access to a nearby park. Boxers are known for their rambunctious energy and goofy personalities."
     },
     {
         name: "Great Dane",
         src: "../img/great-dane.jpg",
         alt: "Great Dane",
-        energy: "Low, Medium",
+        energy: "Low to Medium",
         home: "Apartment, House, Yard",
         size: "Large",
         description: "Great Danes are known as gentle giants because they are huge in size and heart. This breed has relatively low energy levels for its size, making it one of the few large breeds that can do well in apartments and smaller homes."
@@ -236,10 +236,37 @@ const dogsArray = [
         name: "West Highland Terrier",
         src: "../img/west-highland-terrier.jpg",
         alt: "West Highland Terrier",
-        energy: "Medium, High",
+        energy: "Medium to High",
         home: "House, Yard",
-        size: "Small, Medium",
+        size: "Small to Medium",
         description: "West Highland Terriers, AKA Westies, are a small to medium size breed with medium energy levels. They have distinct, feisty personalities. Westies will love living in a home with a family or with an active owner."
+    },
+    {
+        name: "Poodle",
+        src: "../img/poodle.jpg",
+        alt: "Poodle",
+        energy: "Medium to High",
+        home: "Apartment, House, Yard",
+        size: "Small, Medium, Large",
+        description: "Poodles are a versatile breed. They range in size from Toy (very small) up to Standard (large). Smaller poodles can do well in smaller homes while larger poodles will prefer having more space. Poodles of all sizes are highly intelligent and energetic."
+    },
+    {
+        name: "Pit Bull",
+        src: "../img/pit-bull.jpg",
+        alt: "Pit Bull",
+        energy: "Medium to High",
+        home: "House, Yard",
+        size: "Medium to Large",
+        description: "The American Pit Bull is a medium to large size breed with lots of personality. Pit Bulls love being the center of attention and showering their owners with affection. They have medium to high energy levels, so they do best in homes with a backyard or nearby park."
+    },
+    {
+        name: "Schnauzer",
+        src: "../img/schnauzer.jpg",
+        alt: "Schnauzer",
+        energy: "Medium to High",
+        home: "Apartment, House, Yard",
+        size: "Small, Medium, Large",
+        description: "Like the Poodle, the Schnauzer also comes in a few different sizes: Miniature (small), Standard (medium to large), and Giant (very large). With the range in size comes a range in energy levels; Miniature Schnauzers have medium energy while Standard and Giant Schnauzers have high energy levels. All sizes are loyal, intelligent, and independent."
     },
 ]
 

@@ -92,7 +92,7 @@ const dogsArray = [
         name: "Chihuahua",
         src: "../img/chihuahua.jpg",
         alt: "Chihuahua",
-        energy: "Medium",
+        energy: "Low, Medium",
         home: "Apartment, House, Yard",
         size: "Small",
         description: "Chihuahuas are a small breed with medium energy levels. They are a good choice for small homes and apartments. Chihuahuas have a lot of personality, but also require more training than some other small breeds."
@@ -114,6 +114,15 @@ const dogsArray = [
         home: "Apartment, House, Yard",
         size: "Small",
         description: "French Bulldogs have been the #1 most popular dog in the US for the past several years. They are a small breed with low energy levels, making them ideal for apartments or any other living space. French Bulldogs are usually easy to train and have a calm temperament."
+    },
+    {
+        name: "Yorkshire Terrier",
+        src: "../img/yorkshire-terrier.jpg",
+        alt: "Yorkshire Terrier",
+        energy: "Medium",
+        home: "Apartment, House, Yard",
+        size: "Small",
+        description: "Yorkshire Terriers, also known as Yorkies, are a cute and cuddly little breed. They may be small, but they are known for their big personalities and hearts. Because of their small size and medium energy levels, Yorkies can do great in any size home."
     },
 ]
 

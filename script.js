@@ -106,6 +106,15 @@ const dogsArray = [
         size: "Large",
         description: "Rottweilers are big dogs that are known for making great guard dogs. They have medium to high energy and do best with access to a backyard or nearby park. Rottweilers are loyal and give their families lots of love."
     },
+    {
+        name: "French Bulldog",
+        src: "../img/french-bulldog.jpg",
+        alt: "French Bulldog",
+        energy: "Low",
+        home: "Apartment, House, Yard",
+        size: "Small",
+        description: "French Bulldogs have been the #1 most popular dog in the US for the past several years. They are a small breed with low energy levels, making them ideal for apartments or any other living space. French Bulldogs are usually easy to train and have a calm temperament."
+    },
 ]
 
 function randomDog() {

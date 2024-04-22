@@ -119,10 +119,127 @@ const dogsArray = [
         name: "Yorkshire Terrier",
         src: "../img/yorkshire-terrier.jpg",
         alt: "Yorkshire Terrier",
-        energy: "Medium",
+        energy: "Low, Medium",
         home: "Apartment, House, Yard",
         size: "Small",
         description: "Yorkshire Terriers, also known as Yorkies, are a cute and cuddly little breed. They may be small, but they are known for their big personalities and hearts. Because of their small size and medium energy levels, Yorkies can do great in any size home."
+    },
+    {
+        name: "Maltese",
+        src: "../img/maltese.jpg",
+        alt: "Maltese",
+        energy: "Low",
+        home: "Apartment, House, Yard",
+        size: "Small",
+        description: "Malteses are cute little white dogs. They have low to medium energy levels and are easy to train, making them a good choice for beginners. Malteses can do well in apartments or any other size home. One consideration is that this breed has more grooming needs than the average breed."
+    },
+    {
+        name: "Cocker Spaniel",
+        src: "../img/cocker-spaniel.jpg",
+        alt: "Cocker Spaniel",
+        energy: "Low, Medium",
+        home: "Apartment, House, Yard",
+        size: "Medium",
+        description: "Cocker Spaniels became popular after the release of Disney's Lady and the Tramp. They are a medium sized breed with medium to low energy levels. Unlike other medium sized breeds, Cocker Spaniels can do well in apartments and small homes because of their lower energy levels. They are also relatively easy to train."
+    },
+    {
+        name: "Dalmatian",
+        src: "../img/dalmatian.jpg",
+        alt: "Dalmatian",
+        energy: "High",
+        home: "House, Yard",
+        size: "Large",
+        description: "Dalmatians are a large breed with lots of energy. Because of this, they do best when they have access to a backyard or a nearby park. Dalmatians can be harder to train than other breeds. These dogs are recommended for experienced dog owners with active lifestyles."
+    },
+    {
+        name: "Labrador Retriever",
+        src: "../img/labrador.jpg",
+        alt: "Labrador Retriever",
+        energy: "High",
+        home: "House, Yard",
+        size: "Large",
+        description: "Labrador Retrievers, or Labs for short, are among the most popular dog breeds in the US. These big dogs have high energy levels, but can do well in any size home if given proper exercise. Labs are known for being very loving and are great for families with small children."
+    },
+    {
+        name: "Golden Retriever",
+        src: "../img/golden-retriever.jpg",
+        alt: "Golden Retriever",
+        energy: "High",
+        home: "House, Yard",
+        size: "Large",
+        description: "Golden Retrievers are another of the most popular breeds in the US. These big dogs have a lot of energy, so they do best in a larger home or a house with a yard. Golden Retrievers typically love children and make for great family dogs."
+    },
+    {
+        name: "Border Collie",
+        src: "../img/border-collie.jpg",
+        alt: "Border Collie",
+        energy: "High",
+        home: "House, Yard",
+        size: "Medium, Large",
+        description: "Border Collies are among the smartest of all dog breeds. They are a working breed as well, so they do best when both their minds and their bodies are actively engaged. For these reasons, Border Collies are a great choice for experienced dog owners who have access to lots of land for their pup to run and play, or those who maintain a very active lifestyle."
+    },
+    {
+        name: "Basset Hound",
+        src: "../img/basset-hound.jpg",
+        alt: "Basset Hound",
+        energy: "Low",
+        home: "Apartment, House, Yard",
+        size: "Medium",
+        description: "Basset Hounds are a medium sized breed with low energy levels, making them a great choice for smaller homes and even some apartments. This breed is also easy to train, making it a good choice for beginners as well as families."
+    },
+    {
+        name: "Boxer",
+        src: "../img/boxer.jpg",
+        alt: "Boxer",
+        energy: "High",
+        home: "House, Yard",
+        size: "Medium, Large",
+        description: "Boxers are a medium to large sized breed with high energy levels. They do well in homes with a backyard or access to a nearby park. Boxers are known for their rambunctious energy and goofy personalities."
+    },
+    {
+        name: "Great Dane",
+        src: "../img/great-dane.jpg",
+        alt: "Great Dane",
+        energy: "Low, Medium",
+        home: "Apartment, House, Yard",
+        size: "Large",
+        description: "Great Danes are known as gentle giants because they are huge in size and heart. This breed has relatively low energy levels for its size, making it one of the few large breeds that can do well in apartments and smaller homes."
+    },
+    {
+        name: "Pug",
+        src: "../img/pug.jpg",
+        alt: "Pug",
+        energy: "Low",
+        home: "Apartment, House, Yard",
+        size: "Small",
+        description: "Pugs are a small breed with low energy levels, making them a great choice for apartments and small homes. Pugs are both affectionate and regal. They are ideal lap dogs."
+    },
+    {
+        name: "Bulldog",
+        src: "../img/bulldog.jpg",
+        alt: "Bulldog",
+        energy: "Low",
+        home: "Apartment, House, Yard",
+        size: "Medium",
+        description: "Bulldogs are a medium size breed with low energy levels. They are easy going and loyal, making them great family dogs. Due to their lower energy levels, Bulldogs can do well in apartments or any other size home."
+    },
+    {
+        name: "English Shepherd",
+        src: "../img/english-shepherd.jpg",
+        alt: "English Shepherd",
+        energy: "High",
+        home: "House, Yard",
+        size: "Large",
+        description: "English Shepherd are a large breed with high energy levels. They will love a home with a backyard or access to a park. English Shepherds are loyal and protective of their owners, as well as sweet and affectionate towards them."
+    },
+    {
+        name: "West Highland Terrier",
+        src: "../img/west-highland-terrier.jpg",
+        alt: "West Highland Terrier",
+        energy: "Medium, High",
+        home: "House, Yard",
+        size: "Small, Medium",
+        description: "West Highland Terriers, AKA Westies, are a small to medium size breed with medium energy levels. They have distinct, feisty personalities. Westies will love living in a home with a family or with an active owner."
     },
 ]
 

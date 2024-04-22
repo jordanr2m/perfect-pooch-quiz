@@ -97,6 +97,15 @@ const dogsArray = [
         size: "Small",
         description: "Chihuahuas are a small breed with medium energy levels. They are a good choice for small homes and apartments. Chihuahuas have a lot of personality, but also require more training than some other small breeds."
     },
+    {
+        name: "Rottweiler",
+        src: "../img/rottweiler.jpg",
+        alt: "Rottweiler",
+        energy: "Medium, High",
+        home: "House, Yard",
+        size: "Large",
+        description: "Rottweilers are big dogs that are known for making great guard dogs. They have medium to high energy and do best with access to a backyard or nearby park. Rottweilers are loyal and give their families lots of love."
+    },
 ]
 
 function randomDog() {

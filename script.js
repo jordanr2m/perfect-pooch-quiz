@@ -27,7 +27,7 @@ const sizeInput = document.querySelector("#size");
 const dogsArray = [
     {
         name: "Pomeranian",
-        src: "../img/pomeranian.jpg",
+        src: "./img/pomeranian.jpg",
         alt: "Pomeranian",
         energy: "Low",
         home: "Apartment, House, Yard",
@@ -36,7 +36,7 @@ const dogsArray = [
     },
     {
         name: "Beagle",
-        src: "../img/Beagle.jpg",
+        src: "./img/Beagle.jpg",
         alt: "Beagle",
         energy: "Medium",
         home: "House, Yard",
@@ -45,7 +45,7 @@ const dogsArray = [
     },
     {
         name: "German Shepherd",
-        src: "../img/german-shepherd.jpg",
+        src: "./img/german-shepherd.jpg",
         alt: "German Shepherd",
         energy: "High",
         home: "House, Yard",
@@ -54,7 +54,7 @@ const dogsArray = [
     },
     {
         name: "Siberian Husky",
-        src: "../img/husky.jpg",
+        src: "./img/husky.jpg",
         alt: "Siberian Husky",
         energy: "High",
         home: "House, Yard",
@@ -63,7 +63,7 @@ const dogsArray = [
     },
     {
         name: "Boston Terrier",
-        src: "../img/boston-terrier.jpg",
+        src: "./img/boston-terrier.jpg",
         alt: "Boston Terrier",
         energy: "Medium",
         home: "Apartment, House, Yard",
@@ -72,7 +72,7 @@ const dogsArray = [
     },
     {
         name: "Australian Shepherd",
-        src: "../img/australian-shepherd.jpg",
+        src: "./img/australian-shepherd.jpg",
         alt: "Australian Shepherd",
         energy: "High",
         home: "House, Yard",
@@ -81,7 +81,7 @@ const dogsArray = [
     },
     {
         name: "Shiba Inu",
-        src: "../img/shiba-inu.jpg",
+        src: "./img/shiba-inu.jpg",
         alt: "Shiba Inu",
         energy: "Medium",
         home: "Apartment, House, Yard",
@@ -90,7 +90,7 @@ const dogsArray = [
     },
     {
         name: "Chihuahua",
-        src: "../img/chihuahua.jpg",
+        src: "./img/chihuahua.jpg",
         alt: "Chihuahua",
         energy: "Low",
         home: "Apartment, House, Yard",
@@ -99,7 +99,7 @@ const dogsArray = [
     },
     {
         name: "Rottweiler",
-        src: "../img/rottweiler.jpg",
+        src: "./img/rottweiler.jpg",
         alt: "Rottweiler",
         energy: "Medium to High",
         home: "House, Yard",
@@ -108,7 +108,7 @@ const dogsArray = [
     },
     {
         name: "French Bulldog",
-        src: "../img/french-bulldog.jpg",
+        src: "./img/french-bulldog.jpg",
         alt: "French Bulldog",
         energy: "Low",
         home: "Apartment, House, Yard",
@@ -117,7 +117,7 @@ const dogsArray = [
     },
     {
         name: "Yorkshire Terrier",
-        src: "../img/yorkshire-terrier.jpg",
+        src: "./img/yorkshire-terrier.jpg",
         alt: "Yorkshire Terrier",
         energy: "Low to Medium",
         home: "Apartment, House, Yard",
@@ -126,7 +126,7 @@ const dogsArray = [
     },
     {
         name: "Maltese",
-        src: "../img/maltese.jpg",
+        src: "./img/maltese.jpg",
         alt: "Maltese",
         energy: "Low",
         home: "Apartment, House, Yard",
@@ -135,7 +135,7 @@ const dogsArray = [
     },
     {
         name: "Cocker Spaniel",
-        src: "../img/cocker-spaniel.jpg",
+        src: "./img/cocker-spaniel.jpg",
         alt: "Cocker Spaniel",
         energy: "Low to Medium",
         home: "Apartment, House, Yard",
@@ -144,7 +144,7 @@ const dogsArray = [
     },
     {
         name: "Dalmatian",
-        src: "../img/dalmatian.jpg",
+        src: "./img/dalmatian.jpg",
         alt: "Dalmatian",
         energy: "High",
         home: "House, Yard",
@@ -153,7 +153,7 @@ const dogsArray = [
     },
     {
         name: "Labrador Retriever",
-        src: "../img/labrador.jpg",
+        src: "./img/labrador.jpg",
         alt: "Labrador Retriever",
         energy: "High",
         home: "House, Yard",
@@ -162,7 +162,7 @@ const dogsArray = [
     },
     {
         name: "Golden Retriever",
-        src: "../img/golden-retriever.jpg",
+        src: "./img/golden-retriever.jpg",
         alt: "Golden Retriever",
         energy: "High",
         home: "House, Yard",
@@ -171,7 +171,7 @@ const dogsArray = [
     },
     {
         name: "Border Collie",
-        src: "../img/border-collie.jpg",
+        src: "./img/border-collie.jpg",
         alt: "Border Collie",
         energy: "High",
         home: "House, Yard",
@@ -180,7 +180,7 @@ const dogsArray = [
     },
     {
         name: "Basset Hound",
-        src: "../img/basset-hound.jpg",
+        src: "./img/basset-hound.jpg",
         alt: "Basset Hound",
         energy: "Low",
         home: "Apartment, House, Yard",
@@ -189,7 +189,7 @@ const dogsArray = [
     },
     {
         name: "Boxer",
-        src: "../img/boxer.jpg",
+        src: "./img/boxer.jpg",
         alt: "Boxer",
         energy: "High",
         home: "House, Yard",
@@ -198,7 +198,7 @@ const dogsArray = [
     },
     {
         name: "Great Dane",
-        src: "../img/great-dane.jpg",
+        src: "./img/great-dane.jpg",
         alt: "Great Dane",
         energy: "Low to Medium",
         home: "Apartment, House, Yard",
@@ -207,7 +207,7 @@ const dogsArray = [
     },
     {
         name: "Pug",
-        src: "../img/pug.jpg",
+        src: "./img/pug.jpg",
         alt: "Pug",
         energy: "Low",
         home: "Apartment, House, Yard",
@@ -216,7 +216,7 @@ const dogsArray = [
     },
     {
         name: "Bulldog",
-        src: "../img/bulldog.jpg",
+        src: "./img/bulldog.jpg",
         alt: "Bulldog",
         energy: "Low",
         home: "Apartment, House, Yard",
@@ -225,7 +225,7 @@ const dogsArray = [
     },
     {
         name: "English Shepherd",
-        src: "../img/english-shepherd.jpg",
+        src: "./img/english-shepherd.jpg",
         alt: "English Shepherd",
         energy: "High",
         home: "House, Yard",
@@ -234,7 +234,7 @@ const dogsArray = [
     },
     {
         name: "West Highland Terrier",
-        src: "../img/west-highland-terrier.jpg",
+        src: "./img/west-highland-terrier.jpg",
         alt: "West Highland Terrier",
         energy: "Medium to High",
         home: "House, Yard",
@@ -243,7 +243,7 @@ const dogsArray = [
     },
     {
         name: "Poodle",
-        src: "../img/poodle.jpg",
+        src: "./img/poodle.jpg",
         alt: "Poodle",
         energy: "Medium to High",
         home: "Apartment, House, Yard",
@@ -252,7 +252,7 @@ const dogsArray = [
     },
     {
         name: "Pit Bull",
-        src: "../img/pit-bull.jpg",
+        src: "./img/pit-bull.jpg",
         alt: "Pit Bull",
         energy: "Medium to High",
         home: "House, Yard",
@@ -261,7 +261,7 @@ const dogsArray = [
     },
     {
         name: "Schnauzer",
-        src: "../img/schnauzer.jpg",
+        src: "./img/schnauzer.jpg",
         alt: "Schnauzer",
         energy: "Medium to High",
         home: "Apartment, House, Yard",
@@ -270,7 +270,7 @@ const dogsArray = [
     },
     {
         name: "Pembroke Welsh Corgi",
-        src: "../img/corgi.jpg",
+        src: "./img/corgi.jpg",
         alt: "Pembroke Welsh Corgi",
         energy: "Medium",
         home: "Apartment, House, Yard",

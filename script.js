@@ -32,7 +32,7 @@ const dogsArray = [
         energy: "Low",
         home: "Apartment, House, Yard",
         size: "Small",
-        description: "Pomeranians are spunky, cuddly, and lovable. They are great dogs for beginners because they are both easy to train and loyal. Pomeranians are also an excellent choice for those living in apartments or small homes."
+        description: "Pomeranians are spunky, cuddly, and lovable. They are great dogs for beginners because they are both easy to train and easy to take care of. Pomeranians are also an excellent choice for those living in apartments or small homes."
     },
     {
         name: "Beagle",
@@ -41,7 +41,7 @@ const dogsArray = [
         energy: "Medium",
         home: "House, Yard",
         size: "Medium",
-        description: "Beagles are smart and loyal. They make great dogs for active individuals because they have relatively high energy for a breed of their size. Beagles can be more noisy than other breeds, so they do best living in a house."
+        description: "Beagles are smart and loyal. They make great dogs for active individuals because they have relatively high energy levels for a breed of their size. Beagles can be more noisy than other breeds, so they do best living in a house."
     },
     {
         name: "German Shepherd",
@@ -50,7 +50,7 @@ const dogsArray = [
         energy: "High",
         home: "House, Yard",
         size: "Large",
-        description: "German Shepherds are one of the most popular breeds in the US. They are very smart and tend to have a lot of energy. This large breed makes for a good guard dog, but also needs a lot of space to run and play."
+        description: "German Shepherds are one of the most popular breeds in the US. They are very smart and tend to have a lot of energy. This large breed makes for a great guard dog, but they also need a lot of space to run and play."
     },
     {
         name: "Siberian Husky",
@@ -59,7 +59,7 @@ const dogsArray = [
         energy: "High",
         home: "House, Yard",
         size: "Large",
-        description: "Huskies are cute and energetic. They require frequent exercise and prefer spending as much time with their owners as possible. They are loyal and protective."
+        description: "Huskies are cute and energetic. They require frequent exercise and prefer spending as much time with their owners as possible. Huskies are loyal and protective, and they can make great companions for experienced dog owners."
     },
     {
         name: "Boston Terrier",
@@ -92,10 +92,10 @@ const dogsArray = [
         name: "Chihuahua",
         src: "../img/chihuahua.jpg",
         alt: "Chihuahua",
-        energy: "Low to Medium",
+        energy: "Low",
         home: "Apartment, House, Yard",
         size: "Small",
-        description: "Chihuahuas are a small breed with medium energy levels. They are a good choice for small homes and apartments. Chihuahuas have a lot of personality, but also require more training than some other small breeds."
+        description: "Chihuahuas are a small breed with low to medium energy levels. They are a good choice for small homes and apartments. Chihuahuas have a lot of personality, but also require more training than some other small breeds."
     },
     {
         name: "Rottweiler",
@@ -122,7 +122,7 @@ const dogsArray = [
         energy: "Low to Medium",
         home: "Apartment, House, Yard",
         size: "Small",
-        description: "Yorkshire Terriers, also known as Yorkies, are a cute and cuddly little breed. They may be small, but they are known for their big personalities and hearts. Because of their small size and medium energy levels, Yorkies can do great in any size home."
+        description: "Yorkshire Terriers, also known as Yorkies, are a cute and cuddly little breed. They may be small, but they are known for their big personalities and hearts. Because of their small size and low to medium energy levels, Yorkies can do great in any size home."
     },
     {
         name: "Maltese",
@@ -131,7 +131,7 @@ const dogsArray = [
         energy: "Low",
         home: "Apartment, House, Yard",
         size: "Small",
-        description: "Malteses are cute little white dogs. They have low to medium energy levels and are easy to train, making them a good choice for beginners. Malteses can do well in apartments or any other size home. One consideration is that this breed has more grooming needs than the average breed."
+        description: "Malteses are cute, little white dogs. They have low to medium energy levels and are easy to train, making them a good choice for beginners. Malteses can do well in apartments or any other size home. One consideration is that this breed has more grooming needs than the average breed."
     },
     {
         name: "Cocker Spaniel",
@@ -140,7 +140,7 @@ const dogsArray = [
         energy: "Low to Medium",
         home: "Apartment, House, Yard",
         size: "Medium",
-        description: "Cocker Spaniels became popular after the release of Disney's Lady and the Tramp. They are a medium sized breed with medium to low energy levels. Unlike other medium sized breeds, Cocker Spaniels can do well in apartments and small homes because of their lower energy levels. They are also relatively easy to train."
+        description: "Cocker Spaniels became popular after the release of Disney's Lady and the Tramp. They are a medium sized breed with low to medium energy levels. Unlike other medium sized breeds, Cocker Spaniels can do well in apartments and small homes because of their lower energy levels. They are also relatively easy to train."
     },
     {
         name: "Dalmatian",
@@ -167,7 +167,7 @@ const dogsArray = [
         energy: "High",
         home: "House, Yard",
         size: "Large",
-        description: "Golden Retrievers are another of the most popular breeds in the US. These big dogs have a lot of energy, so they do best in a larger home or a house with a yard. Golden Retrievers typically love children and make for great family dogs."
+        description: "Golden Retrievers are among the most popular breeds in the US. These big dogs have a lot of energy, so they do best in a larger home or a house with a yard. Golden Retrievers typically love children and make for great family dogs."
     },
     {
         name: "Border Collie",
@@ -176,7 +176,7 @@ const dogsArray = [
         energy: "High",
         home: "House, Yard",
         size: "Medium to Large",
-        description: "Border Collies are among the smartest of all dog breeds. They are a working breed as well, so they do best when both their minds and their bodies are actively engaged. For these reasons, Border Collies are a great choice for experienced dog owners who have access to lots of land for their pup to run and play, or those who maintain a very active lifestyle."
+        description: "Border Collies are among the smartest of all dog breeds. They are a working breed as well, so they do best when both their minds and their bodies are actively engaged. For these reasons, Border Collies are a great choice for experienced dog owners who have access to lots of land for their pup to run and play, or for those who maintain a very active lifestyle."
     },
     {
         name: "Basset Hound",
@@ -203,7 +203,7 @@ const dogsArray = [
         energy: "Low to Medium",
         home: "Apartment, House, Yard",
         size: "Large",
-        description: "Great Danes are known as gentle giants because they are huge in size and heart. This breed has relatively low energy levels for its size, making it one of the few large breeds that can do well in apartments and smaller homes."
+        description: "Great Danes are known as gentle giants because they are huge in both size and heart. This breed has relatively low energy levels for its size, making it one of the few large breeds that can do well in apartments and smaller homes."
     },
     {
         name: "Pug",
@@ -221,7 +221,7 @@ const dogsArray = [
         energy: "Low",
         home: "Apartment, House, Yard",
         size: "Medium",
-        description: "Bulldogs are a medium size breed with low energy levels. They are easy going and loyal, making them great family dogs. Due to their lower energy levels, Bulldogs can do well in apartments or any other size home."
+        description: "Bulldogs are a medium size breed with low energy levels. They are easy going and loyal, making them great family dogs. Due to their lower energy levels, Bulldogs can do well in apartments, or any other size home."
     },
     {
         name: "English Shepherd",
@@ -267,6 +267,15 @@ const dogsArray = [
         home: "Apartment, House, Yard",
         size: "Small, Medium, Large",
         description: "Like the Poodle, the Schnauzer also comes in a few different sizes: Miniature (small), Standard (medium to large), and Giant (very large). With the range in size comes a range in energy levels; Miniature Schnauzers have medium energy while Standard and Giant Schnauzers have high energy levels. All sizes are loyal, intelligent, and independent."
+    },
+    {
+        name: "Pembroke Welsh Corgi",
+        src: "../img/corgi.jpg",
+        alt: "Pembroke Welsh Corgi",
+        energy: "Medium",
+        home: "Apartment, House, Yard",
+        size: "Small",
+        description: "The Pembroke Welsh Corgi, also known as the Corgi, is a spunky little breed. They have medium energy levels, but because of their small size, they can do well in apartments as well as larger homes. Corgis enjoy being active and also are a good choice for those with families."
     },
 ]
 
